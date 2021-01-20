@@ -2,9 +2,9 @@
 
 namespace Quiz_NetCore.Models
 {
-    public class DBContext
+    public class Quiz_DBContext
     {
-        public DBContext()
+        public Quiz_DBContext()
         {
             //create mock data
             Questions = new List<Question>();            
